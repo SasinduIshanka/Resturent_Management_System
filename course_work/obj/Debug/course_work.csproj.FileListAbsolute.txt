@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\course_work\course_work\bin\Debug\course_work.exe.config
+C:\Users\User\Desktop\course_work\course_work\bin\Debug\course_work.exe
+C:\Users\User\Desktop\course_work\course_work\bin\Debug\course_work.pdb
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.csprojAssemblyReference.cache
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.Home.resources
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.Payments.resources
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.Properties.Resources.resources
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.Student_Registration.resources
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.View_Student.resources
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.csproj.GenerateResource.cache
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.exe
+C:\Users\User\Desktop\course_work\course_work\obj\Debug\course_work.pdb

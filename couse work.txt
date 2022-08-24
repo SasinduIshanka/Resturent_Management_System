@@ -1,0 +1,49 @@
+create database ROTARY
+
+create table student 
+(
+   Student_ID varchar(100) primary key ,
+   Student_Name varchar(100),
+   Address varchar(100),
+   Gender varchar(50),
+   TP decimal
+);
+
+create table subject
+(
+   Subject_ID varchar(100) primary key,
+   Subject_Name varchar(100),
+
+);
+
+create table payment
+(
+  Payment_ID varchar(100) primary key,
+  Fees int,
+  Month varchar(100),
+  Student_ID varchar(100) foreign key references student(Student_ID),
+  Subject_ID varchar(100) foreign key references subject(Subject_ID)
+);
+
+insert into student(Student_ID,Student_Name,Address)
+values('001','nimal','galle')
+insert into student(Student_ID,Student_Name,Address)
+values('002','amal','kandy')
+insert into student(Student_ID,Student_Name,Address)
+values('003','kasun','colombo')
+
+insert into subject(Subject_ID,Subject_Name)
+values('s1','maths')
+insert into subject(Subject_ID,Subject_Name)
+values('s2','science')
+insert into subject(Subject_ID,Subject_Name)
+values('s3','english')
+
+insert into payment(Payment_ID,Fees,Month,Student_ID,Subject_ID)
+values('p1','1000','january','001','s1')
+insert into payment(Payment_ID,Fees,Month,Student_ID,Subject_ID)
+values('p2','1000','january','002','s2')
+insert into payment(Payment_ID,Fees,Month,Student_ID,Subject_ID)
+values('p3','1000','january','001','s2')
+
+select * from student
